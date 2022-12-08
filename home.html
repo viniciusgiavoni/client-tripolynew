@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../script/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/script.css">
+    <link href="./script/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/script.css">
 
     <title>Tripoly New</title>
     
@@ -35,11 +35,21 @@
         </nav>
     </header>
 
-    <section>
-        <div class="container-fluid text-center">
-            <img class="img-fluid" src="../images/banner-site-tripolynew-01.jpg" alt="bannercaixasprincipal">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/banner-site-tripolynew-01.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <section>
         <div class="container-fluid">
@@ -53,7 +63,11 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caixa Modelo 1008</h5>
                                 <p class="card-text">Principais Aplicações: Caixa de Uso Geral; Disponível também em PE (Polietileno) para baixas temperaturas.</p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal01">Informações</a>
+                                <div class="container">
+                                    <div class="d-grid gap-2 align-bottom">
+                                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal01">Informações</button>
+                                    </div>
+                                </div>    
                             </div>
                         </div>
     
@@ -62,7 +76,11 @@
                             <div class="card-body">
                                 <h5 class="card-title">Lixeiras</h5>
                                 <p class="card-text">Design projetado para utilização em espaços reduzidos.</p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal02">Informações</a>
+                                <div class="container">
+                                    <div class="d-grid gap-2 align-bottom">
+                                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal02">Informações</button>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
     
@@ -71,7 +89,11 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caixa Mod. 1009</h5>
                                 <p class="card-text">Acondicionamento e Transporte de produtos em geral.</p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal03">Informações</a>
+                                <div class="container">
+                                    <div class="d-grid gap-2 align-bottom">
+                                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal03">Informações</button>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
     
@@ -103,7 +125,7 @@
         <div class="container-fluid">
             <div class="row personal">
                 <div class="col-md-7 col-sm-12" id="contato">
-                    <h3>Ficou interessado?</h3>
+                    <h2>Ficou interessado?</h2>
                     <p>Preencha os campos do formulário para receber nosso contato.</p>
                 </div>
                 <div class="col col-md-5 col-sm-12">
@@ -315,7 +337,7 @@
         </div>
     </div>
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 section {
+    margin-top: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
     min-height: 400px;
@@ -9,10 +10,6 @@ section {
 #logo {
     max-width: 70px;
     height: auto;
-}
-
-#bannerprincipal {
-    
 }
 
 #h2banner {
@@ -40,6 +37,7 @@ section {
 h3 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    padding: 30px;
 }
 
 .card {
@@ -55,9 +53,7 @@ h3 {
     opacity: 0.3;;
 }
 
-div.container {
-    padding: 10px 20px;
-  }
+
 
 #img-center {
     margin: 0, 0, auto;
